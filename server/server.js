@@ -7,7 +7,7 @@ const app = express();
 const port = 3000;
 
 const uri =
-  "mongodb+srv://Vikas_03:D%5Fboss%4021@cluster0.ylxyhsz.mongodb.net/health?retryWrites=true&w=majority";
+  "";
 
 // Initialize MongoDB client and database
 const mongoClient = new mongodb.MongoClient(uri, { useNewUrlParser: true });
